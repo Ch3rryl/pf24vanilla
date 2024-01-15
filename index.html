@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <ul id="ul">
+            
+            <li><a href="#nav" class="home">HOME</a></li>
+            <li><a href="#about-section">ABOUT</a></a></li>
+            <li><a href="#project-section">PROJECTS</a></li>
+            <li><a href="#contact-section">CONTACT</a></li>
+
+        </ul>
+
+        <button class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars" style="color: #050505;"></i>
+        </button>
+    </nav>
+
+    <main class="main-layout">
+    
+    <section class="hero-section" id="hero-section"><br><br>
+
+        <h1 class="hero-h1">HEY! Hello.</h1>
+
+        <h1>I'M CHERRYL SINCLAIR.<br>FRONTEND DEVELOPER</h1>
+       <h3>JAVASCRIPT, REACT, SQL</h3>
+       <h3>i code dynamic, responsive websites & apps</h3>
+        
+    </section>
+
+    <section class="about-section" id="about-section">
+        <h1>ABOUT ME</h1>
+
+        <div class="flex-container">
+        
+            <div class="flex-left">
+                
+                    <P>DummyText: I'm a newly qualified FrontEnd Developer based in London.
+                    I have passion for UI effects, animations and creating intuitive, dynamic user experiences. I am experienced in Javascript, React, Bootstrap and SCSS.
+                    </p><br>
+
+                    <h2 class="about">Training & Certifications</h2>
+                    <p><i class="fa-brands fa-meta"></i>Meta Front-End Developer Professional Certificate</p><b></b>
+                    <p>CodeFirstGirls Javascript Kickstarter</p>
+                        
+            </div>
+
+            <div class="flex-right">
+                
+                <h2 class="about">Skills & Languages</h2>
+                <div class="skills-container">
+
+                    <div class="logo">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+
+                    <div class="logo">
+                        <i class="icon fa-brands fa-html5"></i>
+                    </div>
+                    <div class="logo">
+                        <i class="icon fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="logo">
+                        <i class="icon fa-brands fa-react"></i>
+                    </div>
+                    <div class="logo">
+                        <i class="icon fa-brands fa-sass"></i>
+                    </div>
+                    <div class="logo">
+                        <i class="icon fa-brands fa-github"></i>
+                    </div>
+
+
+                </div>
+            </div>
+
+    </div>
+
+
+
+    </section>
+
+    <section class="project-section" id="project-section">
+        <h1>PROJECTS</h1>
+        <div class="project-container">
+            <div class="project-card">One</div>
+            <div class="project-card">Two</div>
+            <div class="project-card">Three</div>
+        </div>
+    </section>
+
+
+    <section class="contact-section" id="contact-section">
+        <h1>CONTACT<i class="fa-brands fa-square-x-twitter fa-lg"></i><i class="fa-brands fa-square-github fa-lg"></i></h1>
+
+
+        <div class="form-center">
+
+        <form class="form">
+            <input type="text" placeholder="Name" class="form__input" id="name" required/>
+      
+            <input type="email" placeholder="Email" class="form__input" id="email" required/>
+      
+            <textarea type="text" rows="4" placeholder="Message" class="form__input" id="message" required></textarea>
+            <!-- <input type="text" placeholder="Message" class="form__input" id="message" required/><br> -->
+
+            <button class="submit">Submit</button>
+          </form>
+          
+          
+        </div>
+        
+
+    </section>
+
+</main>
+
+    <footer class="footer-section">	&copy; copyright 2024</footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
