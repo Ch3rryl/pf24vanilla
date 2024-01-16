@@ -130,8 +130,8 @@ text-align: left;
     padding-left: 10px;
   }
 
-.skills-container {
-    background-color: aquamarine;
+.fa-meta {
+    padding-right: 15px;
 }
 
 .icon {
@@ -145,7 +145,15 @@ text-align: left;
     display: grid;
     grid-template-rows: 100px;
     grid-template-columns: 100px 100px 100px;
+    background-color: aquamarine;
 }
+/* skills icons */
+.logos {
+width: 200px;
+padding: 0;
+border: 0;
+}
+
 
 /* contact form  */
 
@@ -185,9 +193,6 @@ text-align: left;
 }
 
 
-
-
-
 /* media queries / responsive changes */
 
 @media (max-width: 800px) {
@@ -214,7 +219,6 @@ button {
         min-width: 100px;
     }
 }
-
 
 .fa-github-square {
     display: block;
