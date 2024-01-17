@@ -125,7 +125,6 @@ text-align: left;
   }
   
   .flex-right {
-    background-color: dodgerblue;
     flex: 40%;
     padding-left: 10px;
   }
@@ -135,23 +134,21 @@ text-align: left;
 }
 
 .icon {
+    font-size: 75px;
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    align-items: center;
+    text-align: center;
+    /* width: 100%; */
 }
 
 .skills-container {
+    margin-top: 20px;
     display: grid;
-    grid-template-rows: 100px;
-    grid-template-columns: 100px 100px 100px;
-    background-color: aquamarine;
+    grid-template-rows: 110px 110px;
+    grid-template-columns: 110px 110px 110px;
 }
 /* skills icons */
-.logos {
-width: 200px;
-padding: 0;
-border: 0;
+.logo {
+text-align: center;
 }
 
 
@@ -199,7 +196,14 @@ border: 0;
     .flex-right, .flex-left {
       flex: 100%;
     } 
-}}
+
+    .flex-right {
+        margin-top: 30px;
+        padding-top: 30px;
+        }
+}
+
+}
 
 
 button {
