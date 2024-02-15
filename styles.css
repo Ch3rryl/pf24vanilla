@@ -14,11 +14,32 @@ nav {
 
 }
 
+/* responsive nav bar */
 nav .show {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    background-color: white;
+    height: fit-content;
+    width: 50%;
+    margin-top: 16%;
+    padding-right: 0;
+    z-index: 1;
 
 }
+
+
+li .show {
+top: 10%;
+text-align: center;
+margin: 5px;
+}
+
+li .show:hover {
+    background-color: #ff059d;
+    color: white;
+}
+
 
 ul {
     display: flex;
@@ -139,7 +160,7 @@ text-align: left;
     font-size: 60px;
     display: inline-block;
     text-align: center;
-    /* width: 100%; */
+   
 }
 
 .icon:hover {
@@ -259,7 +280,6 @@ button:hover {
         width: 100%;
     }
     .ul {
-        /* align-items: center; */
         width: 100%;
     }
     nav {
@@ -280,6 +300,8 @@ button:hover {
         margin: 0;
 
     }
+
+    
 
 }
 

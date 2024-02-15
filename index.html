@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -20,10 +21,10 @@
     <nav id="nav">
         <ul id="ul">
             
-            <li><a href="#nav" class="home">HOME</a></li>
-            <li><a href="#about-section">ABOUT</a></a></li>
-            <li><a href="#project-section">PROJECTS</a></li>
-            <li><a href="#contact-section">CONTACT</a></li>
+            <li><a href="#nav" id="home" class="show">HOME</a></li>
+            <li><a href="#about-section" class="show">ABOUT</a></a></li>
+            <li><a href="#project-section" class="show">PROJECTS</a></li>
+            <li><a href="#contact-section" class="show">CONTACT</a></li>
 
         </ul>
 
@@ -38,9 +39,9 @@
 
         <h1 class="hero-h1">HEY! Hello.</h1>
 
-        <h1>I'M CHERRYL SINCLAIR.<br>FRONTEND DEVELOPER</h1>
-       <h3>JAVASCRIPT, REACT, SQL</h3>
-       <h3>i code dynamic, responsive websites & apps</h3>
+        <h1>I'M CHERRYL SINCLAIR.<br>SOFTWARE DEVELOPER</h1>
+       <h3>JAVA, JAVASCRIPT, REACT, SQL</h3>
+       <h3>i code dynamic, responsive websites & web applications</h3>
         
     </section>
 
@@ -51,8 +52,11 @@
         
             <div class="flex-left">
                 
-                    <P>DummyText: I'm a newly qualified FrontEnd Developer based in London.
-                    I have passion for UI effects, animations and creating intuitive, dynamic user experiences. I am experienced in Javascript, React, Bootstrap and SCSS.
+                    <p>I recently made the transition from a Commercial career in construction and civil engineering (Quantity Surveying /     Proposals Management) to software development.<br><br>
+
+                    I have a passion for all things technology and design. Technology, for me, is not just a set of tools; it's a medium where creativity meets problem-solving.<br><br>
+                        
+                    I am proficient in both frontend and backend technologies. On the backend, I utilise Java and Spring Boot which allows me to create scalable and efficient server-side applications. On the frontend, I focus on JavaScript and React to create to bring designs to life and create dynamic and responsive interfaces.
                     </p><br>
 
                     <h2 class="about">Training & Certifications</h2>
@@ -66,30 +70,36 @@
 
             <div class="flex-right">
                 
-                <h2 class="about aboutSub">Skills & Languages</h2>
+                <!-- <h2 class="about aboutSub">Skills & Languages</h2> -->
                 <div class="skills-container">
 
                     <div class="logo">
-                        <i class="icon fa-brands fa-square-js"></i>
-                    </div>
+                        <i class="icon fa-brands fa-square-js" style="color:#FFD43B"></i> 
+                    </div> 
 
                     <div class="logo">
-                        <i class="icon fa-brands fa-html5"></i>
+                        <i class="icon fa-brands fa-html5" style="color: #f06529;"></i>
                     </div>
                     <div class="logo">
-                        <i class="icon fa-brands fa-css3-alt"></i>
+                        <i class="icon fa-brands fa-css3-alt" style="color: #2965f1;"></i>
                     </div>
                     <div class="logo">
-                        <i class="icon fa-brands fa-react"></i>
+                        <i class="icon fa-brands fa-react" style="color:#61DBFB;"></i>
                     </div>
                     <div class="logo">
-                        <i class="icon fa-brands fa-sass"></i>
+                        <i class="icon fa-brands fa-sass" style="color: #c69;"></i>
                     </div>
                     <div class="logo">
                         <i class="icon fa-brands fa-github"></i>
                     </div>
                     <div class="logo">
-                        <i class="icon fa-brands fa-java"></i>
+                        <i class="icon fa-brands fa-java" style="color: #5382a1;"></i>
+                    </div>
+                    <div class="logo">
+                        <iconify-icon class="icon" icon="devicon:junit"></iconify-icon>
+                    </div>
+                    <div class="logo">
+                        <iconify-icon class="icon" style="color: #8BC34A;" icon="bxl:spring-boot"></iconify-icon>
                     </div>
 
 
@@ -137,7 +147,7 @@
 
 </main>
 <br>
-    <footer class="footer-section">&copy; copyright 2024</footer>
+    <footer class="footer-section">&copy;2024 Cherryl Sinclair</footer>
 
     <script src="app.js"></script>
 </body>
