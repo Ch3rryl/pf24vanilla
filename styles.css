@@ -29,13 +29,13 @@ nav .show {
 }
 
 
-li .show {
+nav .show li {
 top: 10%;
 text-align: center;
 margin: 5px;
 }
 
-li .show:hover {
+nav .show li:hover {
     background-color: #ff059d;
     color: white;
 }
