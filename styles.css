@@ -123,10 +123,11 @@ p {
 }
 
 .project-card {
+    position: relative;
     width: 400px;
     height: 500px;
     border: 3px solid black;
-    /* box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75); */
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
     margin: 25px 15px;
     /* border-radius: 5px; */
     
@@ -135,9 +136,37 @@ p {
 .project-card img {
     object-fit: contain;
     max-width: 100%;
+    /* max-height: 100%;  */
     overflow: hidden;
-    /* max-height: 100%; */ 
+    
     /* overflow: hidden; */
+}
+
+.project-card:hover .title {
+    opacity: 1;
+    background-color: transparent;
+    width: 400px;
+    text-align: center;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color:  black;
+    padding: 5px 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+    font-size: 24px;
+    font-weight:800;
+
 }
 
 /* about section */
@@ -153,13 +182,17 @@ text-align: left;
   }
   
   .flex-left {
-    flex: 60%;
+    flex: 70%;
     padding-right: 10px;
   }
   
   .flex-right {
-    flex: 40%;
+    flex: 30%;
     padding-left: 10px;
+  }
+
+  .about-left-container {
+    max-width: 650px;
   }
 
 .fa-meta {
