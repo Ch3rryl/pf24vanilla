@@ -143,15 +143,17 @@
 
         <div class="form-center">
 
-        <form class="form">
+        <form action="https://formsubmit.co/sinclair@live.co.uk" method="POST" class="form">
             <input type="text" placeholder="Name" class="form__input" id="name" required/>
       
             <input type="email" placeholder="Email" class="form__input" id="email" required/>
       
             <textarea type="text" rows="4" placeholder="Message" class="form__input" id="message" required></textarea>
-            <!-- <input type="text" placeholder="Message" class="form__input" id="message" required/><br> -->
+            
+            <!-- amend thank you page once webpage deployed -->
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
 
-            <button class="submit">Submit</button>
+            <button type="submit" class="submit">Submit</button>
           </form>
           
           
